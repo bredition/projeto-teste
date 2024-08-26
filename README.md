@@ -2,4 +2,4 @@
 
 # Projeto criado utilizando o GitHub e GitHub Desktop
 
-Curso do GitHub
+Meu GitHub
