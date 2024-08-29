@@ -1,0 +1,348 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN4mMapR6mR22MiYqQoMsyq",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bredition/projeto-teste/blob/main/29082024\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 9,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2cy4rJBXvo_L",
+        "outputId": "299d1a65-0393-4c87-832f-31bdd0d59186"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello World!\n"
+          ]
+        }
+      ],
+      "source": [
+        "print (\"Hello World!\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n=float(input(\"Digite um numero 0\"))\n",
+        "b=float(input(\"Digite o segundo valor\"))\n",
+        "q=n*n\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Xdez_tuJxg9E",
+        "outputId": "3ae410e0-7501-452d-d9d5-10082bf34212"
+      },
+      "execution_count": 26,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Digite um numero 01\n",
+            "Digite o segundo valor2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Exemplo de cálculo da media de dois valores\n",
+        "#com um programa na linguagem de\n",
+        "#programação Python\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "eiSnL2BDypCE"
+      },
+      "execution_count": 8,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"Digite valor\"))\n",
+        "b=float(input(\"Digite o valor\"))\n",
+        "c=float(input(\"Digite o valor\"))\n",
+        "media=(a+b)/3\n",
+        "print(\"A media dos valores digitados é\",media)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Py3C0kDmzH-I",
+        "outputId": "ee5c6080-3018-4673-de50-bef1f8e375ae"
+      },
+      "execution_count": 27,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite valor20\n",
+            "Digite o valor30\n",
+            "Digite o valor10\n",
+            "A media dos valores digitados é 16.666666666666668\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "peso=float(input(\"Digite o peso: \"))\n",
+        "altura=float(input(\"Digite a sua altura: \"))\n",
+        "imc=peso/(0altura**2)\n",
+        "print(\"o valor do imc é\",imc)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NQbJhBUs3d4Z",
+        "outputId": "97612e60-fa30-41cd-9e7e-d366722f46a3"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o peso: 2\n",
+            "Digite a sua altura: 3\n",
+            "o valor do imc é 0.2222222222222222\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=float(input(\"Digite a distancia percorrida pelo objeto, em Km: \" ))\n",
+        "t=float(input(\"Digite o tempo transcorrido, em h: \" )),\n",
+        "if s >0 and t >0:\n",
+        "  v = s/t\n",
+        "  print(\"A velocidade do objeto é\",v, \" Km/h\")\n",
+        "else:\n",
+        "    print(\"Erro, o valor de tempo deve ser possivel!\")\n",
+        "    print(\"tente novamente.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "j3bKldLq5U8X",
+        "outputId": "5e63e39b-0797-4415-d1c7-321b038210fa"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyboardInterrupt",
+          "evalue": "Interrupted by user",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-46-4b79824233e6>\u001b[0m in \u001b[0;36m<cell line: 1>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0ms\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Digite a distancia percorrida pelo objeto, em Km: \"\u001b[0m \u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      2\u001b[0m \u001b[0mt\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Digite o tempo transcorrido, em h: \"\u001b[0m \u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0ms\u001b[0m \u001b[0;34m>\u001b[0m\u001b[0;36m0\u001b[0m \u001b[0;32mand\u001b[0m \u001b[0mt\u001b[0m \u001b[0;34m>\u001b[0m\u001b[0;36m0\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m   \u001b[0mv\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0ms\u001b[0m\u001b[0;34m/\u001b[0m\u001b[0mt\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      5\u001b[0m   \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"A velocidade do objeto é\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mv\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m\" Km/h\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36mraw_input\u001b[0;34m(self, prompt)\u001b[0m\n\u001b[1;32m    849\u001b[0m                 \u001b[0;34m\"raw_input was called, but this frontend does not support input requests.\"\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    850\u001b[0m             )\n\u001b[0;32m--> 851\u001b[0;31m         return self._input_request(str(prompt),\n\u001b[0m\u001b[1;32m    852\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_ident\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    853\u001b[0m             \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0m_parent_header\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/local/lib/python3.10/dist-packages/ipykernel/kernelbase.py\u001b[0m in \u001b[0;36m_input_request\u001b[0;34m(self, prompt, ident, parent, password)\u001b[0m\n\u001b[1;32m    893\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    894\u001b[0m                 \u001b[0;31m# re-raise KeyboardInterrupt, to truncate traceback\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 895\u001b[0;31m                 \u001b[0;32mraise\u001b[0m \u001b[0mKeyboardInterrupt\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Interrupted by user\"\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    896\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mException\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0me\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    897\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mlog\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwarning\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"Invalid Message:\"\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mexc_info\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyboardInterrupt\u001b[0m: Interrupted by user"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=float(input(\"Digite o numero\"))\n",
+        "b=float(input(\"Digite outro numero\"))\n",
+        "media=(a+b)/2\n",
+        "print(\"A media dos valores digitados é\",media)\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3B1vceiq7w8p",
+        "outputId": "f5f58aa7-529c-4b71-a26d-1544b3188de8"
+      },
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o numero2\n",
+            "Digite outro numero3\n",
+            "A media dos valores digitados é 2.5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "s=float(input(\"Digite o primeiro valor:\" ))\n",
+        "t=float(input(\"Digite o segundo valor\" )),\n",
+        "soma=n1+n2\n",
+        "if  soma>=0:\n",
+        "  print(\"o resultado da soma é: \",soma)\n",
+        "  else:\n",
+        "    print(\"A \")\n",
+        ""
+      ],
+      "metadata": {
+        "id": "AEymr-6V907S"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=float(input(\"Digite o valor de X:\"))\n",
+        "\n",
+        "if x>=0 and x<=10:\n",
+        "print(\"O valor digitado se encontra entre 0 e 10\")\n",
+        "elif x> 10 and x<=20:\n",
+        "print(\"O valor digitado se encontra entre 10 e 20\")\n",
+        "elif x> 20 and x<=30:\n",
+        "print(\"O valor digitado se encontra entre 20 e 30\")\n",
+        "elif:\n",
+        "print(\"O valor digitado se encontra entre 30\")\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "Z8AltxbU-ffT",
+        "outputId": "a25d918b-5f31-4852-ebc8-cea6e7ee0e66"
+      },
+      "execution_count": 64,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "expected an indented block after 'if' statement on line 3 (<ipython-input-64-638e5ff45f20>, line 4)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-64-638e5ff45f20>\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    print(\"O valor digitado se encontra entre 0 e 10\")\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m expected an indented block after 'if' statement on line 3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=float(input(\"Digite o valor de X:\"))\n",
+        "if x>=0 and x <=10:\n",
+        "    print(\" O valor digitado se encontra entre 0 e 10\" )\n",
+        "  else x>=10 and x <=20:\n",
+        "    print(\" O valor digitado se encontra entre 10 e 20\" )\n",
+        "  else x>=20 and x <=30:\n",
+        "    print(\" O valor digitado se encontra entre 20 e 30\" )\n",
+        "  else:\n",
+        "    print(\" O valor digitado se encontra entre 30\" )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "5sJn_0CGA-5Q",
+        "outputId": "94878b9f-42c2-4e4f-da80-4765b3353e31"
+      },
+      "execution_count": 85,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "IndentationError",
+          "evalue": "unindent does not match any outer indentation level (<tokenize>, line 4)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"<tokenize>\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    else x>=10 and x <=20:\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mIndentationError\u001b[0m\u001b[0;31m:\u001b[0m unindent does not match any outer indentation level\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=float(input(\"Digite o valor de X:\"))\n",
+        "if x>=0 and x<=10:\n",
+        "  print(\"O valor digitado se encontra entre 0 e 10\")\n",
+        "elif x> 10 and x<=20:\n",
+        "  print(\"O valor digitado se encontra entre 10 e 20\")\n",
+        "elif x> 20 and x<=30:\n",
+        "  print(\"O valor digitado se encontra entre 20 e 30\")\n",
+        "elif x> 30 and x<40:\n",
+        "  print(\"O valor digitado se encontra entre 30 e 40\")\n",
+        "elif x> 40 and x<50:\n",
+        "  print(\"O valor digitado se encontra entre 40 e 40\")\n",
+        "elif x> 50 and x<60:\n",
+        "  print(\"O valor digitado se encontra entre 40 e 50\")\n",
+        "elif x> 60 and x<70:\n",
+        "  print(\"O valor digitado se encontra entre 60 e 70\")\n",
+        "elif x> 70 and x<80:\n",
+        "  print(\"O valor digitado se encontra entre 70 e 80\")\n",
+        "elif x> 90 and x<100:\n",
+        "  print(\"O valor digitado se encontra entre 90 e 100\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zUv0p8H6E38q",
+        "outputId": "490e8760-2392-49fb-a555-976f18b3ea05"
+      },
+      "execution_count": 90,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o valor de X:10\n",
+            "O valor digitado se encontra entre 0 e 10\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
